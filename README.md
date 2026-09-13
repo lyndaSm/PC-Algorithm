@@ -70,3 +70,4 @@ The corresponding Version 6 study was checked across 14 experiment steps, includ
 
 Author: Linda Smail, Zayed University, Dubai, United Arab Emirates.
 
+Use [CITATION.cff](CITATION.cff) for software citation metadata. The accompanying article is a manuscript; no journal publication or archival DOI is asserted here.
