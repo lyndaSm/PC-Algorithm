@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Please cite this software when using the implementation."
-type: software
+message: "Please cite this code when using the implementation."
+type: code
 title: "Root-Induced Network-Packet Decomposition of the PC Algorithm"
 authors:
   - family-names: Smail
