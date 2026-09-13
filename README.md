@@ -1,6 +1,6 @@
 # PC-Algorithm
 
-Python implementations and simulation experiments accompanying Linda Smail's manuscript, **Root-Induced Network-Packet Decomposition of the PC Algorithm: Structure, Correctness, Estimation, and Limits**.
+Python implementations and simulation experiments accompanying my draft paper, **Root-Induced Network-Packet Decomposition of the PC Algorithm: Structure, Correctness, Estimation, and Limits**.
 
 The code studies causal discovery with PC-stable and a decomposition based on the graph obtained from marginal-independence tests. It includes level-synchronous and packet-first schedules, separator selection, synthetic data generators, and Gaussian and discrete conditional-independence tests.
 
@@ -60,9 +60,9 @@ Modules import one another from `code/`; keep this directory intact. Experiment 
 
 ## Interpretation
 
-With a common significance level and deterministic test ordering, the level-synchronous schedule is compared test for test with PC-stable. Packet-first scheduling can change finite-sample decisions. The balanced separator is a heuristic; failure to find a cut does not prove that no admissible cut exists.
+With a common significance level and deterministic test ordering, the level-synchronous schedule is compared, test-for-test, with PC-stable. Packet-first scheduling can change finite-sample decisions. The balanced separator is a heuristic; failure to find a cut does not prove that no admissible cut exists.
 
-Reported parallel gains are estimates based on conditional-independence-test work. This repository does not implement measured concurrent packet execution. Some inherited experiment outputs include legacy CPDAG diagnostics; the manuscript's finite-sample accuracy analysis uses the skeleton and unshielded-v-structure metrics in `truth_variants.py`.
+Reported parallel gains are estimates based on conditional independence test results. This repository does not implement concurrent packet execution with measurements. Some inherited experiment outputs include legacy CPDAG diagnostics; the manuscript's finite-sample accuracy analysis uses the skeleton and unshielded-v-structure metrics in `truth_variants.py`.
 
 The corresponding Version 6 study was checked across 14 experiment steps, including 13 manuscript tables and 838 numeric cells. Computation times and decisions near numerical thresholds can depend on the environment. The repository contains source code; generated output and the author's audit files are maintained separately.
 
@@ -70,4 +70,3 @@ The corresponding Version 6 study was checked across 14 experiment steps, includ
 
 Author: Linda Smail, Zayed University, Dubai, United Arab Emirates.
 
-Use [CITATION.cff](CITATION.cff) for software citation metadata. The accompanying article is a manuscript; no journal publication or archival DOI is asserted here.
