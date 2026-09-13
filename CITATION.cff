@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the implementation."
+type: software
+title: "Root-Induced Network-Packet Decomposition of the PC Algorithm"
+authors:
+  - family-names: Smail
+    given-names: Linda
+    affiliation: "Zayed University"
+repository-code: "https://github.com/lyndaSm/PC-Algorithm"
+url: "https://github.com/lyndaSm/PC-Algorithm"
+abstract: "PC-stable and network-packet causal-discovery algorithms with synthetic simulation experiments."
